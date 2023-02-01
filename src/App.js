@@ -89,7 +89,7 @@ function App() {
       an13,
       student_effort,
       student_work,
-      message,
+ 
     } = formdata;
     if (
       instructor_name &&
@@ -113,7 +113,7 @@ function App() {
       console.log(formdata);
       setErr(false);
       Axios.post(
-        "https://course-evaluation-server-production.up.railway.app/api/insert",
+        "https://course-evaluation-server-production-3a88.up.railway.app/api/insert",
         {
           formdata,
         }
